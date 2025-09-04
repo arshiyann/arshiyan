@@ -1,0 +1,27 @@
+{
+  "name": "Arshiyan Shaikh Portfolio",
+  "short_name": "Arshiyan Portfolio",
+  "description": "Software Engineer at Cisco, Ex-ISRO Intern. Portfolio showcasing projects and professional journey.",
+  "start_url": "/arshiyan/",
+  "display": "standalone",
+  "background_color": "#f5f7fa",
+  "theme_color": "#1772d0",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "images/pp2.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/pp2.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["portfolio", "professional", "technology"],
+  "lang": "en-US",
+  "scope": "/arshiyan/"
+}

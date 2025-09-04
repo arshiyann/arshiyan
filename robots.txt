@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://arshiyann.github.io/arshiyan/sitemap.xml
+
+# Disallow certain files
+Disallow: /README.md
+Disallow: /_config.yml

@@ -1,0 +1,45 @@
+# GitHub Pages Configuration
+title: "Arshiyan Shaikh | Software Engineer Portfolio"
+description: "Software Engineer at Cisco, Ex-ISRO Intern. Explore my journey in space technology, AI/ML, and software development."
+url: "https://arshiyann.github.io"
+baseurl: "/arshiyan"
+
+# Author information
+author:
+  name: "Arshiyan Shaikh"
+  email: "arshiiyan@gmail.com"
+  github: "arshiyann"
+  linkedin: "arshiyan-shaikh-84a108188"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# GitHub Pages settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# SEO settings
+lang: en_US
+timezone: Asia/Kolkata
+
+# Social links
+social:
+  type: Person
+  links:
+    - "https://github.com/arshiyann"
+    - "https://www.linkedin.com/in/arshiyan-shaikh-84a108188/"
+
+# Google Analytics
+google_analytics: G-87ZC58HD06
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
