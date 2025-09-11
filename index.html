@@ -794,6 +794,8 @@
 
         .project-links {
             display: flex;
+            justify-content: space-between;
+            align-items: center;
             gap: 15px;
         }
 
@@ -801,12 +803,22 @@
             color: #2563eb;
             text-decoration: none;
             font-weight: 600;
-            transition: color 0.3s ease;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.9rem;
+        }
+
+        .project-link.source-code {
+            font-size: 0.85rem;
         }
 
         .project-link:hover {
             color: #1d4ed8;
+            transform: translateY(-1px);
         }
+
 
         /* Skills Section */
         .skills {
